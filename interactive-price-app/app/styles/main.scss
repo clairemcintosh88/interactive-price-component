@@ -1,0 +1,35 @@
+body {
+    background-color: #f9faff;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-weight: 600;
+	text-rendering: optimizeLegibility; 
+	font-family: 'Manrope', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+    color: #292e40;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1440px;
+    grid-template-rows: 50px 100px;
+    grid-gap: 20px;
+     grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+    text-align: center;
+}
