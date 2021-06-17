@@ -22,6 +22,7 @@ h1 {
     font-family: $manrope-font;
     color: $dark-blue;
     margin-bottom: 20px;
+    line-height: 32px;
 }
 
 h2 {
@@ -45,6 +46,18 @@ h3 {
 p {
     color: $grey-blue;
     font-size: 15px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .background-wrap {
@@ -160,6 +173,20 @@ ul.no-bullet {
     color: $dark-blue;
     margin-right: 10px;
 }
+
+.discount-tag {
+    color: #e7a494;
+    background: #ffeee7;
+    font-weight: bold;
+    font-size: 9px;
+    padding: 2px 7px;
+    margin-left: 5px;
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
 
 
 // Media Queries
