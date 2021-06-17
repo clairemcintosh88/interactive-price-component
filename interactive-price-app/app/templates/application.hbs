@@ -18,7 +18,10 @@
             <div class="box-2">
                 <div class="flex-box">
                     <p><span class="price">$16.00</span></p>
+                    
                     <p>/ month</p>
+                    
+                    
                 </div>
             </div>
 
@@ -30,7 +33,14 @@
 
             <div class="box-4">
                 <div class="box text-right">
-                    <p class="small">Monthly billing TOGGLE SWITCH Yearly billing <span class="discount-tag">25% discount</span></p>
+                    {{toggle-switch}}
+                   <button
+                        class="btn"
+                        type="button"
+                        {{on "click" this.yearlyPrice}}
+                        >
+                        yearly price calculations
+                    </button>
                 </div>
             </div>
 
