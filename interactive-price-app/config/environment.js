@@ -4,7 +4,7 @@ module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'interactive-price-app',
     environment,
-    rootURL: '/',
+    rootURL: '/interactive-price-app',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {

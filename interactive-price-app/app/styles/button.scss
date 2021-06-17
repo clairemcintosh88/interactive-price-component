@@ -1,0 +1,32 @@
+.btn {
+    width: 100%;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background .3s linear;
+    border: none;
+    font-size: 12px;
+    font-weight: 800;
+
+    &.dark-blue-bg {
+        background-color: $dark-blue;
+
+        &:hover, &:focus, &:active {
+            background-color: #40527f;
+        }
+    }
+
+    &.pale-blue-text {
+        color: $pale-blue;
+    }
+
+    &.text-align {
+        text-align: center;
+    }
+
+    &.width-170 {
+        width: 170px;
+    }
+}
