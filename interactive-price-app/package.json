@@ -60,12 +60,17 @@
     "prettier": "^2.2.1",
     "qunit": "^2.14.1",
     "qunit-dom": "^1.6.0",
-    "sass": "^1.35.0"
+    "sass": "^1.35.0",
+    "nouislider": "^15.2.0"
   },
   "engines": {
     "node": "10.* || >= 12"
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "ember-cli-nouislider": "^1.2.1",
+    "nouislider": "^15.2.0"
   }
 }

@@ -28,12 +28,18 @@
             <div class="box-3">
                 <div class="box">
                     <h3>slider</h3>
+                    <RangeSlider 
+                    @range={{this.model.defaultRange}}
+                    @step={{10}}
+                    @start={{this.model.steps}}
+                    />
+                    
                 </div>
             </div>
 
             <div class="box-4">
                 <div class="box text-right">
-                    {{toggle-switch}}
+                    <ToggleSwitch />
                    <button
                         class="btn"
                         type="button"

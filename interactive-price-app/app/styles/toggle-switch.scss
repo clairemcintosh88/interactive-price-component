@@ -1,17 +1,17 @@
-$green:rgba(19,191,17,1);
+$green:#7ee8dc;
 $grey-blue: #7a8299;
 $pale-blue: #c0c9f4;
 $dark-blue: #292e40;
 
 .checkbox-label {
     display:block;
-    background:$pale-blue;
+    background:$green;
     height:20px;
     width:50px;
     border-radius:20px;
     margin:50px auto;
     position:relative;
-    box-shadow:0 0 0 2px $pale-blue;
+    box-shadow:0 0 0 2px $green;
     .off {
       display:block;
       position:absolute;
@@ -34,7 +34,7 @@ $dark-blue: #292e40;
       min-width:90px;
       line-height:20px;
       opacity:1;
-      color:$dark-blue;
+      color:$pale-blue;
       font-size: 12px;
     }
     &:before {
@@ -57,7 +57,7 @@ $dark-blue: #292e40;
     left:-5000px;
     &:checked {
       + .checkbox-label {
-        background:$dark-blue;
+        background:$pale-blue;
         .off {
           //left:100px;
           opacity:1;
@@ -84,8 +84,8 @@ $dark-blue: #292e40;
     }
     &:checked {
       + .checkbox-label {
-        background:$dark-blue;
-        box-shadow:0 0 0 2px $dark-blue;
+        background:$pale-blue;
+        box-shadow:0 0 0 2px $pale-blue;
         .off {
           //left:100px;
           opacity:1;
